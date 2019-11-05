@@ -6,7 +6,8 @@ public class palindrome
 {
 	public static void main(String[]args)
 	{
-		int num=425;
+	
+		int num=5551;
 		int number=num;
 		int temp=0;
 		int rev=0;
@@ -16,7 +17,7 @@ public class palindrome
 			rev=rev*10+temp;
 			num=num/10;
 	    }
-		if( num==rev)
+		if( rev==number)
 			System.out.println(number+ " is plandrome number");
 		else
 			System.out.println(number+ " is not a palendrome number");
